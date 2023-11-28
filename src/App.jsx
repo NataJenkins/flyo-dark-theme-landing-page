@@ -1,7 +1,7 @@
 import "./App.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import FlyoNav from "./Components/Nav";
+import FlyoNav from "./Components/Nav/Nav";
 
 function App() {
     return (

@@ -1,6 +1,6 @@
 import { Container, Nav } from "react-bootstrap";
 import Navbar from "react-bootstrap/Navbar";
-import Logo from "../assets/logo.svg";
+import Logo from "../../assets/logo.svg";
 import "./Nav.scss";
 
 export default function FlyoNav() {
