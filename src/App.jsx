@@ -1,7 +1,14 @@
 import "./App.scss";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+import FlyoNav from "./Components/Nav";
 
 function App() {
-    return <>hola</>;
+    return (
+        <div className="main-container">
+            <FlyoNav />
+        </div>
+    );
 }
 
 export default App;
