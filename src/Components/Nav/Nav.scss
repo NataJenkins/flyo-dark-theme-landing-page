@@ -2,4 +2,9 @@
     .nav-link {
         color: white;
     }
+    @media (max-width: 576px) {
+        img {
+            transform: scale(0.7);
+        }
+    }
 }
