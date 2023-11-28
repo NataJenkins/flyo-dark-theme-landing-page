@@ -9,7 +9,7 @@ $cyan: hsl(176, 68%, 64%); // (inside call-to-action gradient)
 $blue: hsl(198, 60%, 50%); // (inside call-to-action gradient)
 $light-red: hsl(0, 100%, 63%); //
 
-$White: hsl(0, 0%, 100%);
+$white: hsl(0, 0%, 100%);
 
 *,
 body,
@@ -17,7 +17,12 @@ html {
     margin: 0;
     padding: 0;
     font-family: "Open Sans", sans-serif;
-    color: $White;
+    color: $white;
     background-color: $dark-blue;
     // font-family: 'Raleway', sans-serif;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
 }

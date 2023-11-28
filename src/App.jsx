@@ -3,12 +3,14 @@ import "./App.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import FlyoNav from "./Components/Nav/Nav";
+import Header from "./Components/Header/Header";
 
 function App() {
     return (
-        <Container className="p-lg-5 p-2 py-5">
+        <div className="p-lg-5 p-2 py-5 m-0 main-container">
             <FlyoNav />
-        </Container>
+            <Header />
+        </div>
     );
 }
 
