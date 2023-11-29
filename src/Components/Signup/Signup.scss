@@ -48,6 +48,30 @@
             font-weight: 700;
         }
     }
+
+    @media (max-width: 576px) {
+        h2 {
+            font-size: 18px;
+            line-height: 14px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            .input-container {
+                width: 100%;
+                input {
+                    width: 100%;
+                }
+                p {
+                    margin: 0;
+                }
+            }
+            button {
+                width: 100%;
+            }
+        }
+    }
 }
 
 .signup-section {

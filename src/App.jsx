@@ -9,7 +9,7 @@ import Signup from "./Components/Signup/Signup";
 
 function App() {
     return (
-        <div className="p-lg-5 p-2 m-0 main-container">
+        <div className="p-lg-5 p-3 m-0 main-container">
             <FlyoNav />
             <Header />
             <Features />
