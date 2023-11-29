@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import FlyoNav from "./Components/Nav/Nav";
 import Header from "./Components/Header/Header";
 import Features from "./Components/Features/Features";
+import TeamsSection from "./Components/Teams/TeamsSection";
 
 function App() {
     return (
@@ -11,6 +12,7 @@ function App() {
             <FlyoNav />
             <Header />
             <Features />
+            <TeamsSection />
         </div>
     );
 }

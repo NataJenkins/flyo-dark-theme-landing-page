@@ -18,8 +18,10 @@ html {
     padding: 0;
     font-family: "Open Sans", sans-serif;
     color: $white;
-    background-color: $dark-blue;
     // font-family: 'Raleway', sans-serif;
+}
+body {
+    background-color: $dark-blue;
 }
 
 #root {

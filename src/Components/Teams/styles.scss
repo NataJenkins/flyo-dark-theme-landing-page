@@ -1,0 +1,57 @@
+@import "../../_base.scss";
+.teams-section {
+    h2 {
+        font-family: "Raleway", sans-serif;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 50px;
+    }
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    img {
+        width: 100%;
+    }
+    button {
+        border: none;
+        box-sizing: border-box;
+        border-bottom: 1px solid transparent;
+        color: $cyan;
+        border-bottom: 1px solid $cyan;
+        background-color: transparent;
+        svg {
+            margin-left: 10px;
+            circle {
+                fill: $cyan;
+            }
+        }
+
+        &:hover {
+            color: $white;
+            border-bottom: 1px solid white;
+            svg {
+                circle {
+                    fill: $white;
+                }
+            }
+        }
+    }
+    .feedback-section {
+        background: url(../../assets/bg-quotes.png) no-repeat top 4rem left;
+    }
+
+    @media (max-width: 576px) {
+        h2 {
+            font-size: 18px;
+            line-height: 24px;
+        }
+        p {
+            font-size: 14px;
+        }
+        .feedback-section {
+            background: url(../../assets/bg-quotes.png) no-repeat top 2rem left;
+        }
+    }
+}
