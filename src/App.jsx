@@ -5,6 +5,7 @@ import FlyoNav from "./Components/Nav/Nav";
 import Header from "./Components/Header/Header";
 import Features from "./Components/Features/Features";
 import TeamsSection from "./Components/Teams/TeamsSection";
+import Signup from "./Components/Signup/Signup";
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
             <Header />
             <Features />
             <TeamsSection />
+            <Signup />
         </div>
     );
 }
